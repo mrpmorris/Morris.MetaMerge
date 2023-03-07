@@ -1,6 +1,5 @@
 ﻿using Fody;
 using Mono.Cecil;
-using Morris.MetaMerge.Contracts;
 using System.Collections.Generic;
 using System;
 using System.Linq;
@@ -35,7 +34,7 @@ namespace MetaMerge.Fody
 
 		private void ScanProperty(PropertyDefinition property)
 		{
-			var metaAttribute = property.CustomAttributes.FirstOrDefault(a => a.AttributeType.FullName == typeof(MetaAttribute).FullName);
+			var metaAttribute = property.CustomAttributes.FirstOrDefault(a => a.AttributeType.FullName == "MetaMerge.MetaAttribute");
 			if (metaAttribute is null)
 				return;
 			property.CustomAttributes.Remove(metaAttribute);

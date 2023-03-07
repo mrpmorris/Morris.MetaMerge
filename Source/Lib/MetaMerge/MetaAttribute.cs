@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Morris.MetaMerge.Contracts
+namespace MetaMerge
 {
 	[AttributeUsage(AttributeTargets.Property, AllowMultiple = true)]
 	public class MetaAttribute : Attribute

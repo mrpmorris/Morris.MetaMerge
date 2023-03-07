@@ -1,0 +1,1 @@
+dotnet build Source\Morris.MetaMerge.sln -c Release
