@@ -19,7 +19,7 @@ namespace MetaMerge.Fody
 			foreach (var type in ModuleDefinition.Types)
 				ScanType(type);
 
-			var contractsReference = ModuleDefinition.AssemblyReferences.FirstOrDefault(x => x.Name == "MetaMerge.Contacts");
+			var contractsReference = ModuleDefinition.AssemblyReferences.FirstOrDefault(x => x.Name == "MetaMerge");
 			if (contractsReference is null)
 				return;
 
@@ -69,6 +69,12 @@ namespace MetaMerge.Fody
 				TypeReference localAttributeTypeReference = sourceAttributeConstructorArgument.Type;
 				CustomAttributeArgument localAttributeInstance = new CustomAttributeArgument(localAttributeTypeReference, sourceAttributeConstructorArgument.Value);
 				localCustomAttribute.ConstructorArguments.Add(localAttributeInstance);
+			}
+
+			foreach(var sourceAttributePropertArgument in sourceAttribute.Properties)
+			{
+				var localAttributePropertyArgument = new CustomAttributeNamedArgument(name: sourceAttributePropertArgument.Name, argument: sourceAttributePropertArgument.Argument);
+				localCustomAttribute.Properties.Add(localAttributePropertyArgument);
 			}
 
 			return localCustomAttribute;

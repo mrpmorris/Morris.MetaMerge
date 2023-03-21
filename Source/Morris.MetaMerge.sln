@@ -18,6 +18,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMerge", "Lib\MetaMerge\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMerge.Fody", "Lib\MetaMerge.Fody\MetaMerge.Fody.csproj", "{C78652FE-CB02-433D-9263-E401481DBC29}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMergeTests", "MetaMergeTests\MetaMergeTests.csproj", "{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMergeTests.Models", "MetaMergeTests.Models\MetaMergeTests.Models.csproj", "{AD2F1721-5531-4A8F-8D1A-82D427E807CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -32,6 +36,14 @@ Global
 		{C78652FE-CB02-433D-9263-E401481DBC29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C78652FE-CB02-433D-9263-E401481DBC29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C78652FE-CB02-433D-9263-E401481DBC29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +51,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AE3FC019-8823-436D-8966-C34095479187} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
 		{C78652FE-CB02-433D-9263-E401481DBC29} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
+		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
+		{AD2F1721-5531-4A8F-8D1A-82D427E807CF} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CAE15C7-F4D1-4793-9866-C715962564FD}
