@@ -1,12 +1,13 @@
 # MetaMerge - documentation
 
 ## Purpose
-The purpose of ***MetaMerge** is to allow developers to keep sets of
+The purpose of ***MetaMerge*** is to allow developers to keep sets of
 attributes consistent across different classes.
 
 ## Tutorials
 Still to do, but the installation instructions are simple.  Add a package
-reference to 
+reference to `Fody` and then to `MetaMerge.Fody` on the project you want
+attributes merged into.
 
 ## Problem definition
 The following class is an example of a simple Entity named `Person` which
