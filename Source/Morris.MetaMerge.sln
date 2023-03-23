@@ -35,6 +35,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-SyncAttributes", "01-SyncAttributes", "{CF89D472-9492-4121-8493-41F7154F2B94}"
+	ProjectSection(SolutionItems) = preProject
+		Tutorials\01-SyncAttributes\README.md = Tutorials\01-SyncAttributes\README.md
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncAttributesTutorial", "Tutorials\01-SyncAttributes\SyncAttributesTutorial\SyncAttributesTutorial.csproj", "{05C71556-E328-4E6D-A6D8-AAF02BCE3F75}"
 EndProject

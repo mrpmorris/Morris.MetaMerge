@@ -6,8 +6,8 @@
 		<SignAssembly>true</SignAssembly>
 		<LangVersion>10</LangVersion>
 		<Version>1.0.0</Version>
-		<AssemblyVersion>0.1.0.0</AssemblyVersion>
-		<FileVersion>0.1.0.0</FileVersion>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.0.0</FileVersion>
 
 		<Authors>Peter Morris</Authors>
 		<Description>Define collections of attributes and reuse them across multiple targets</Description>
