@@ -4,8 +4,4 @@
 		<TargetFramework>net7.0</TargetFramework>
 	</PropertyGroup>
 
-	<ItemGroup>
-	  <ProjectReference Include="..\Lib\MetaMerge\MetaMerge.csproj" />
-	</ItemGroup>
-
 </Project>
