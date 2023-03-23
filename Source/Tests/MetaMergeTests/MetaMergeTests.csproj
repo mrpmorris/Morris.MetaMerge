@@ -20,6 +20,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <ProjectReference Include="..\..\Lib\MetaMerge.Fody\MetaMerge.Fody.csproj" />
 	  <ProjectReference Include="..\Lib\MetaMerge.Fody\MetaMerge.Fody.csproj" />
 	  <ProjectReference Include="..\Lib\MetaMerge\MetaMerge.csproj" />
 	  <ProjectReference Include="..\MetaMergeTests.Models\MetaMergeTests.Models.csproj" />

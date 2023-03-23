@@ -4,7 +4,11 @@
 The purpose of ***MetaMerge** is to allow developers to keep sets of
 attributes consistent across different classes.
 
-### Problem definition
+## Tutorials
+Still to do, but the installation instructions are simple.  Add a package
+reference to 
+
+## Problem definition
 The following class is an example of a simple Entity named `Person` which
 has `Salutation`, `GivenName`, and `FamilyName` properties.  Each of
 these properties are decorated with various .net attributes; these
