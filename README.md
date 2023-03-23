@@ -8,7 +8,7 @@ apply them to multiple targets.
 ## Goal
 The aim of ***MetaMerge*** is to enable programmers to keep sets of
 attributes consistent throughout their application.  For example, if
-there is a FirstName property in a business object (server side) and
+there is a `FamilyName` property in a business object (server side) and
 also in multiple Contract classes (typically API data-transfer-objects)
 then we can ensure meta information such as MinLength etc are consistent
 across all of them.
