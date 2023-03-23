@@ -5,7 +5,7 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{E79191DA-0EA8-4326-ADB4-34F531B848DC}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BA406E01-7AA9-4821-AAE2-AE22993A959E}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Solution Items", "_Solution Items", "{BA406E01-7AA9-4821-AAE2-AE22993A959E}"
 	ProjectSection(SolutionItems) = preProject
 		..\LICENCE = ..\LICENCE
 		..\README.md = ..\README.md
@@ -18,14 +18,31 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMerge", "Lib\MetaMerge\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMerge.Fody", "Lib\MetaMerge.Fody\MetaMerge.Fody.csproj", "{C78652FE-CB02-433D-9263-E401481DBC29}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMergeTests", "MetaMergeTests\MetaMergeTests.csproj", "{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMergeTests", "Tests\MetaMergeTests\MetaMergeTests.csproj", "{DBD1A103-74C7-46FE-B8CF-8773D0D2797A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMergeTests.Models", "MetaMergeTests.Models\MetaMergeTests.Models.csproj", "{AD2F1721-5531-4A8F-8D1A-82D427E807CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MetaMergeTests.Models", "Tests\MetaMergeTests.Models\MetaMergeTests.Models.csproj", "{AD2F1721-5531-4A8F-8D1A-82D427E807CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{5564DDB2-A807-424C-94BB-857F0D749564}"
 	ProjectSection(SolutionItems) = preProject
-		..\README.md = ..\README.md
+		..\Docs\README.md = ..\Docs\README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{E057AF8F-E041-486C-B858-2260FBD2F54E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tutorials", "Tutorials", "{333B5889-2BF4-46AA-B83C-BB13859CDAC0}"
+	ProjectSection(SolutionItems) = preProject
+		Tutorials\README.md = Tutorials\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-SyncAttributes", "01-SyncAttributes", "{CF89D472-9492-4121-8493-41F7154F2B94}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SyncAttributesTutorial", "Tutorials\01-SyncAttributes\SyncAttributesTutorial\SyncAttributesTutorial.csproj", "{05C71556-E328-4E6D-A6D8-AAF02BCE3F75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncAttributesTutorial.Definitions", "Tutorials\01-SyncAttributes\SyncAttributesTutorial.Definitions\SyncAttributesTutorial.Definitions.csproj", "{32DF0D99-C4B6-4CDE-8393-9181FEA5B293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncAttributesTutorial.Contracts", "Tutorials\01-SyncAttributes\SyncAttributesTutorial.Contracts\SyncAttributesTutorial.Contracts.csproj", "{DD1975A8-A6A6-4E6A-B41C-AD0E9419075D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncAttributesTutorial.Entities", "Tutorials\01-SyncAttributes\SyncAttributesTutorial.Entities\SyncAttributesTutorial.Entities.csproj", "{F48DDCF8-479F-4474-BCE4-9A67DD0BA99A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -49,6 +66,22 @@ Global
 		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2F1721-5531-4A8F-8D1A-82D427E807CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C71556-E328-4E6D-A6D8-AAF02BCE3F75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C71556-E328-4E6D-A6D8-AAF02BCE3F75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C71556-E328-4E6D-A6D8-AAF02BCE3F75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C71556-E328-4E6D-A6D8-AAF02BCE3F75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32DF0D99-C4B6-4CDE-8393-9181FEA5B293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32DF0D99-C4B6-4CDE-8393-9181FEA5B293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32DF0D99-C4B6-4CDE-8393-9181FEA5B293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32DF0D99-C4B6-4CDE-8393-9181FEA5B293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD1975A8-A6A6-4E6A-B41C-AD0E9419075D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD1975A8-A6A6-4E6A-B41C-AD0E9419075D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD1975A8-A6A6-4E6A-B41C-AD0E9419075D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD1975A8-A6A6-4E6A-B41C-AD0E9419075D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F48DDCF8-479F-4474-BCE4-9A67DD0BA99A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F48DDCF8-479F-4474-BCE4-9A67DD0BA99A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F48DDCF8-479F-4474-BCE4-9A67DD0BA99A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F48DDCF8-479F-4474-BCE4-9A67DD0BA99A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -56,8 +89,13 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{AE3FC019-8823-436D-8966-C34095479187} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
 		{C78652FE-CB02-433D-9263-E401481DBC29} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
-		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
-		{AD2F1721-5531-4A8F-8D1A-82D427E807CF} = {E79191DA-0EA8-4326-ADB4-34F531B848DC}
+		{DBD1A103-74C7-46FE-B8CF-8773D0D2797A} = {E057AF8F-E041-486C-B858-2260FBD2F54E}
+		{AD2F1721-5531-4A8F-8D1A-82D427E807CF} = {E057AF8F-E041-486C-B858-2260FBD2F54E}
+		{CF89D472-9492-4121-8493-41F7154F2B94} = {333B5889-2BF4-46AA-B83C-BB13859CDAC0}
+		{05C71556-E328-4E6D-A6D8-AAF02BCE3F75} = {CF89D472-9492-4121-8493-41F7154F2B94}
+		{32DF0D99-C4B6-4CDE-8393-9181FEA5B293} = {CF89D472-9492-4121-8493-41F7154F2B94}
+		{DD1975A8-A6A6-4E6A-B41C-AD0E9419075D} = {CF89D472-9492-4121-8493-41F7154F2B94}
+		{F48DDCF8-479F-4474-BCE4-9A67DD0BA99A} = {CF89D472-9492-4121-8493-41F7154F2B94}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1CAE15C7-F4D1-4793-9866-C715962564FD}

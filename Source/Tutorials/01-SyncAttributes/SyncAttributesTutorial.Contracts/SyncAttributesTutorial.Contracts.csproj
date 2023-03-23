@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="FodyHelpers" Version="6.6.4" />
+	  <PackageReference Include="MetaMerge.Fody" Version="0.1.0-Beta1" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\SyncAttributesTutorial.Definitions\SyncAttributesTutorial.Definitions.csproj" />
+	</ItemGroup>
+
+</Project>
