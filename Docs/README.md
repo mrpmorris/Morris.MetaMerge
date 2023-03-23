@@ -148,7 +148,7 @@ namespace MyApp.Contracts
 ```
 
 ### Outcome
-For each property ***MetaMerge** finds that is decorated with a
+For each property ***MetaMerge*** finds that is decorated with a
 `MetaAttribute` it will replace it with the attributes defined on
 the `Target` property of the class specified.
 
@@ -161,6 +161,6 @@ public string Salutation { get; set; }
 **After**
 ```c#
 [Required, MinLength(2), MaxLength(8)]
-[Display(Name = "Salutation"]
+[Display(Name = "Salutation")]
 public string Salutation { get; set; }
 ```
