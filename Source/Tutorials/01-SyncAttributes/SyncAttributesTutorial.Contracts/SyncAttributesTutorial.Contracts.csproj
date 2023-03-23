@@ -5,6 +5,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+	  <PackageReference Include="Fody" Version="6.6.4">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="MetaMerge.Fody" Version="0.1.0-Beta1" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<ProjectReference Include="..\SyncAttributesTutorial.Definitions\SyncAttributesTutorial.Definitions.csproj" />
 	</ItemGroup>
 
